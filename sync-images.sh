@@ -1,8 +1,4 @@
 #!/bin/bash
-sudo yum install git -y
-cd image-sync
-sudo git clone https://github.com/kamaldixitdevops/image-sync.git
-
 echo "syncing India preprod files"
 sudo sh india_preprod_sync.sh
 
